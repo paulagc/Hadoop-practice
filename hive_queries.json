@@ -1,0 +1,98 @@
+[
+{
+  "pk": 6, 
+  "model": "desktop.document2", 
+  "fields": {
+    "uuid": "40eeacd5-a4e7-2530-ebb1-a1a639942221", 
+    "extra": "", 
+    "type": "query-hive", 
+    "description": "", 
+    "is_history": false, 
+    "parent_directory": [
+      "06c519ad-7c8c-4e0e-9137-1963a11f5025", 
+      1, 
+      false
+    ], 
+    "last_modified": "2016-11-25T07:58:50", 
+    "version": 1, 
+    "owner": [
+      "cloudera"
+    ], 
+    "dependencies": [], 
+    "data": "{\"loadingHistory\": false, \"is_history\": false, \"id\": 6, \"snippets\": [{\"status\": \"available\", \"complexityLevel\": \"\", \"chartX\": null, \"lastExecuted\": 1480069375712, \"queriesFilterVisible\": false, \"variables\": [], \"showChart\": false, \"isResultSettingsVisible\": false, \"chartScope\": \"world\", \"queriesHasErrors\": false, \"errorsKlass\": \"results hive alert alert-error\", \"result\": {\"statements_count\": 1, \"endTime\": \"2016-11-25T10:22:55.772Z\", \"handle\": {\"log_context\": null, \"statements_count\": 1, \"end\": {\"column\": 67, \"row\": 0}, \"statement_id\": 0, \"has_more_statements\": false, \"start\": {\"column\": 0, \"row\": 0}, \"secret\": \"/NvfVL27RAyhXaBMbMby5Q==\\n\", \"has_result_set\": true, \"statement\": \"select * from datacleantableexternal order by gsd19026 desc limit 10\", \"operation_type\": 0, \"modified_row_count\": null, \"guid\": \"+YGaPQAwRHKs+Nn6ynGmRg==\\n\"}, \"statement_id\": 0, \"executionTime\": 0, \"type\": \"table\", \"explanation\": \"\", \"fetchedOnce\": false, \"statement_range\": {\"start\": {\"column\": 0, \"row\": 0}, \"end\": {\"column\": 0, \"row\": 0}}, \"hasManyColumns\": false, \"hasResultset\": true, \"meta\": [], \"hasMore\": false, \"startTime\": \"2016-11-25T10:22:55.772Z\", \"hasSomeResults\": true, \"logLines\": 30, \"data\": [], \"id\": \"bf9e482a-4bbc-040a-1764-bbcd24227de3\", \"logs\": \"\"}, \"viewSettings\": {\"sqlDialect\": true, \"placeHolder\": \"Example: SELECT * FROM tablename, or press CTRL + space\"}, \"loadingQueries\": false, \"hasDataForChart\": false, \"id\": \"4a535ee4-9f66-3eee-3d7d-d9f12e344076\", \"errors\": [], \"aceSize\": 100, \"statusForButtons\": \"executed\", \"chartData\": [], \"statement_raw\": \"select * from datacleantableexternal order by gsd19026 desc limit 10\", \"showLogs\": false, \"chartMapLabel\": null, \"statement\": \"select * from datacleantableexternal order by gsd19026 desc limit 10\", \"progress\": 0, \"type\": \"hive\", \"chartSorting\": \"none\", \"previousChartOptions\": {\"chartSorting\": \"none\", \"chartX\": null, \"chartScatterSize\": null, \"chartScope\": \"world\", \"chartMapLabel\": null, \"chartScatterGroup\": null, \"chartYSingle\": null, \"chartYMulti\": []}, \"jobs\": [], \"isSqlDialect\": true, \"queriesFilter\": \"\", \"variableNames\": [], \"resultsKlass\": \"results hive\", \"queriesCurrentPage\": 1, \"queriesTotalPages\": 1, \"formatEnabled\": true, \"chartYMulti\": [], \"dbSelectionVisible\": false, \"chartType\": \"bars\", \"currentQueryTab\": \"queryResults\", \"showGrid\": true, \"properties\": {\"files\": [], \"functions\": [], \"settings\": []}, \"isFetchingData\": false, \"name\": \"\", \"database\": \"default\", \"hasSuggestion\": false, \"chartScatterSize\": null, \"hasComplexity\": false, \"complexity\": \"\", \"chartScatterGroup\": null, \"chartYSingle\": null, \"suggestion\": \"\", \"is_redacted\": false, \"settingsVisible\": false, \"checkStatusTimeout\": null, \"isLoading\": false}], \"uuid\": \"40eeacd5-a4e7-2530-ebb1-a1a639942221\", \"dependentsWorkflows\": [], \"historyFilterVisible\": false, \"isHistory\": false, \"type\": \"query-hive\", \"historyFilter\": \"\", \"description\": \"\", \"sessions\": [{\"type\": \"hive\", \"properties\": [{\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Files\", \"key\": \"files\", \"help_text\": \"Add one or more files, jars, or archives to the list of resources.\", \"type\": \"hdfs-files\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Functions\", \"key\": \"functions\", \"help_text\": \"Add one or more registered UDFs (requires function name and fully-qualified class name).\", \"type\": \"functions\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Settings\", \"key\": \"settings\", \"help_text\": \"Hive and Hadoop configuration properties.\", \"type\": \"settings\", \"options\": [\"hive.map.aggr\", \"hive.exec.compress.output\", \"hive.exec.parallel\", \"hive.execution.engine\", \"mapreduce.job.queuename\"]}], \"id\": 1}], \"selectedSnippet\": \"hive\", \"name\": \"query a external\", \"parentSavedQueryUuid\": null, \"isSaved\": true, \"creatingSessionLocks\": [], \"directoryUuid\": \"\", \"unloaded\": false}", 
+    "name": "query a external"
+  }
+},
+{
+  "pk": 8, 
+  "model": "desktop.document2", 
+  "fields": {
+    "uuid": "5ddb759a-a6de-1a9e-260f-33569fc8fbed", 
+    "extra": "", 
+    "type": "query-hive", 
+    "description": "", 
+    "is_history": false, 
+    "parent_directory": [
+      "06c519ad-7c8c-4e0e-9137-1963a11f5025", 
+      1, 
+      false
+    ], 
+    "last_modified": "2016-11-25T08:03:36", 
+    "version": 1, 
+    "owner": [
+      "cloudera"
+    ], 
+    "dependencies": [], 
+    "data": "{\"loadingHistory\": false, \"is_history\": false, \"id\": 8, \"snippets\": [{\"status\": \"available\", \"complexityLevel\": \"\", \"chartX\": null, \"lastExecuted\": 1480069661665, \"queriesFilterVisible\": false, \"variables\": [], \"showChart\": false, \"isResultSettingsVisible\": false, \"chartScope\": \"world\", \"queriesHasErrors\": false, \"errorsKlass\": \"results hive alert alert-error\", \"result\": {\"statements_count\": 1, \"endTime\": \"2016-11-25T10:28:51.737Z\", \"handle\": {\"log_context\": null, \"statements_count\": 1, \"end\": {\"column\": 67, \"row\": 0}, \"statement_id\": 0, \"has_more_statements\": false, \"start\": {\"column\": 0, \"row\": 0}, \"secret\": \"5uHjuQyhT3WHJvvvGegGgQ==\\n\", \"has_result_set\": true, \"statement\": \"select * from datacleantableinternal order by gsd19026 desc limit 10\", \"operation_type\": 0, \"modified_row_count\": null, \"guid\": \"+tBB97xhQU6Jd/o9M9QtbQ==\\n\"}, \"statement_id\": 0, \"executionTime\": 70047, \"type\": \"table\", \"explanation\": \"\", \"fetchedOnce\": false, \"statement_range\": {\"start\": {\"column\": 0, \"row\": 0}, \"end\": {\"column\": 0, \"row\": 0}}, \"hasManyColumns\": false, \"hasResultset\": true, \"meta\": [], \"hasMore\": false, \"startTime\": \"2016-11-25T10:27:41.690Z\", \"hasSomeResults\": true, \"logLines\": 31, \"data\": [], \"id\": \"d2977a4c-d37c-15f2-7743-4b7b639c2055\", \"logs\": \"\"}, \"viewSettings\": {\"sqlDialect\": true, \"placeHolder\": \"Example: SELECT * FROM tablename, or press CTRL + space\"}, \"loadingQueries\": false, \"hasDataForChart\": false, \"id\": \"13a67d3d-56fc-b708-6e61-23831c4c38a7\", \"errors\": [], \"aceSize\": 100, \"statusForButtons\": \"executed\", \"chartData\": [], \"statement_raw\": \"select * from datacleantableinternal order by gsd19026 desc limit 10\", \"showLogs\": false, \"chartMapLabel\": null, \"statement\": \"select * from datacleantableinternal order by gsd19026 desc limit 10\", \"progress\": 0, \"type\": \"hive\", \"chartSorting\": \"none\", \"previousChartOptions\": {\"chartSorting\": \"none\", \"chartX\": null, \"chartScatterSize\": null, \"chartScope\": \"world\", \"chartMapLabel\": null, \"chartScatterGroup\": null, \"chartYSingle\": null, \"chartYMulti\": []}, \"jobs\": [], \"isSqlDialect\": true, \"queriesFilter\": \"\", \"variableNames\": [], \"resultsKlass\": \"results hive\", \"queriesCurrentPage\": 1, \"queriesTotalPages\": 1, \"formatEnabled\": true, \"chartYMulti\": [], \"dbSelectionVisible\": false, \"chartType\": \"bars\", \"currentQueryTab\": \"queryResults\", \"showGrid\": true, \"properties\": {\"files\": [], \"functions\": [], \"settings\": []}, \"isFetchingData\": false, \"name\": \"\", \"database\": \"default\", \"hasSuggestion\": false, \"chartScatterSize\": null, \"hasComplexity\": false, \"complexity\": \"\", \"chartScatterGroup\": null, \"chartYSingle\": null, \"suggestion\": \"\", \"is_redacted\": false, \"settingsVisible\": false, \"checkStatusTimeout\": 15192, \"isLoading\": false}], \"uuid\": \"5ddb759a-a6de-1a9e-260f-33569fc8fbed\", \"dependentsWorkflows\": [], \"historyFilterVisible\": false, \"isHistory\": false, \"type\": \"query-hive\", \"historyFilter\": \"\", \"description\": \"\", \"sessions\": [{\"type\": \"hive\", \"properties\": [{\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Files\", \"key\": \"files\", \"help_text\": \"Add one or more files, jars, or archives to the list of resources.\", \"type\": \"hdfs-files\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Functions\", \"key\": \"functions\", \"help_text\": \"Add one or more registered UDFs (requires function name and fully-qualified class name).\", \"type\": \"functions\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Settings\", \"key\": \"settings\", \"help_text\": \"Hive and Hadoop configuration properties.\", \"type\": \"settings\", \"options\": [\"hive.map.aggr\", \"hive.exec.compress.output\", \"hive.exec.parallel\", \"hive.execution.engine\", \"mapreduce.job.queuename\"]}], \"id\": 1}], \"selectedSnippet\": \"hive\", \"name\": \"query a internal\", \"parentSavedQueryUuid\": null, \"isSaved\": true, \"creatingSessionLocks\": [], \"directoryUuid\": \"\", \"unloaded\": false}", 
+    "name": "query a internal"
+  }
+},
+{
+  "pk": 12, 
+  "model": "desktop.document2", 
+  "fields": {
+    "uuid": "92c68b75-72e5-92d7-07a3-64b8814e2c87", 
+    "extra": "", 
+    "type": "query-hive", 
+    "description": "", 
+    "is_history": false, 
+    "parent_directory": [
+      "06c519ad-7c8c-4e0e-9137-1963a11f5025", 
+      1, 
+      false
+    ], 
+    "last_modified": "2016-11-25T09:12:15", 
+    "version": 1, 
+    "owner": [
+      "cloudera"
+    ], 
+    "dependencies": [], 
+    "data": "{\"loadingHistory\": false, \"id\": 12, \"dependentsWorkflows\": [], \"snippets\": [{\"chartSorting\": \"none\", \"complexityLevel\": \"\", \"chartX\": null, \"previousChartOptions\": {\"chartSorting\": \"none\", \"chartX\": null, \"chartScatterSize\": null, \"chartScope\": \"world\", \"chartMapLabel\": null, \"chartScatterGroup\": null, \"chartYSingle\": null, \"chartYMulti\": []}, \"queriesFilterVisible\": false, \"variables\": [], \"showChart\": false, \"isResultSettingsVisible\": false, \"chartScope\": \"world\", \"statement_raw\": \"select avg(gsd19026) as mediagsd19026 from datacleantableexternal where genetitle like '%retard%'\", \"result\": {\"statements_count\": 1, \"logLines\": 30, \"handle\": {\"log_context\": null, \"statements_count\": 1, \"end\": {\"column\": 96, \"row\": 0}, \"statement_id\": 0, \"has_more_statements\": false, \"start\": {\"column\": 0, \"row\": 0}, \"secret\": \"MwPGcOO8Qjar72cWZn9Twg==\\n\", \"has_result_set\": true, \"statement\": \"select avg(gsd19026) as mediagsd19026 from datacleantableexternal where genetitle like '%retard%'\", \"operation_type\": 0, \"modified_row_count\": null, \"guid\": \"0Th7k1Z9Squm4SWQnFLKaA==\\n\"}, \"statement_id\": 0, \"executionTime\": 80760, \"data\": [], \"explanation\": \"\", \"fetchedOnce\": false, \"statement_range\": {\"start\": {\"column\": 0, \"row\": 0}, \"end\": {\"column\": 0, \"row\": 0}}, \"hasManyColumns\": false, \"hasResultset\": true, \"meta\": [], \"hasMore\": false, \"startTime\": \"2016-11-25T10:40:46.682Z\", \"hasSomeResults\": true, \"endTime\": \"2016-11-25T10:42:07.442Z\", \"type\": \"table\", \"id\": \"adee770b-790e-3e1d-3d54-3800e9c60189\", \"logs\": \"\"}, \"viewSettings\": {\"sqlDialect\": true, \"placeHolder\": \"Example: SELECT * FROM tablename, or press CTRL + space\"}, \"loadingQueries\": false, \"hasDataForChart\": false, \"id\": \"edb86da8-6252-60d0-b43d-b032bf8d482c\", \"errors\": [], \"aceSize\": 100, \"statusForButtons\": \"executed\", \"chartMapLabel\": null, \"chartData\": [], \"lastExecuted\": 1480070446669, \"queriesHasErrors\": false, \"showLogs\": false, \"errorsKlass\": \"results hive alert alert-error\", \"statement\": \"select avg(gsd19026) as mediagsd19026 from datacleantableexternal where genetitle like '%retard%'\", \"progress\": 0, \"type\": \"hive\", \"chartScatterGroup\": null, \"status\": \"available\", \"currentQueryTab\": \"queryResults\", \"jobs\": [], \"suggestion\": \"\", \"queriesFilter\": \"\", \"variableNames\": [], \"resultsKlass\": \"results hive\", \"queriesCurrentPage\": 1, \"queriesTotalPages\": 1, \"formatEnabled\": true, \"chartYMulti\": [], \"dbSelectionVisible\": false, \"chartType\": \"bars\", \"showGrid\": true, \"properties\": {\"files\": [], \"functions\": [], \"settings\": []}, \"isFetchingData\": false, \"name\": \"\", \"database\": \"default\", \"hasSuggestion\": false, \"chartScatterSize\": null, \"checkStatusTimeout\": null, \"complexity\": \"\", \"chartYSingle\": null, \"isSqlDialect\": true, \"is_redacted\": false, \"settingsVisible\": false, \"hasComplexity\": false, \"isLoading\": false}], \"uuid\": \"92c68b75-72e5-92d7-07a3-64b8814e2c87\", \"is_history\": false, \"historyFilterVisible\": false, \"selectedSnippet\": \"hive\", \"type\": \"query-hive\", \"historyFilter\": \"\", \"description\": \"\", \"sessions\": [{\"type\": \"hive\", \"properties\": [{\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Files\", \"key\": \"files\", \"help_text\": \"Add one or more files, jars, or archives to the list of resources.\", \"type\": \"hdfs-files\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Functions\", \"key\": \"functions\", \"help_text\": \"Add one or more registered UDFs (requires function name and fully-qualified class name).\", \"type\": \"functions\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Settings\", \"key\": \"settings\", \"help_text\": \"Hive and Hadoop configuration properties.\", \"type\": \"settings\", \"options\": [\"hive.map.aggr\", \"hive.exec.compress.output\", \"hive.exec.parallel\", \"hive.execution.engine\", \"mapreduce.job.queuename\"]}], \"id\": 1}], \"isHistory\": false, \"name\": \"media retard externa\", \"parentSavedQueryUuid\": null, \"isSaved\": true, \"creatingSessionLocks\": [], \"directoryUuid\": \"\", \"unloaded\": false}", 
+    "name": "media retard externa"
+  }
+},
+{
+  "pk": 13, 
+  "model": "desktop.document2", 
+  "fields": {
+    "uuid": "ef805cd5-7f60-c97d-227a-1b726ff8687c", 
+    "extra": "", 
+    "type": "query-hive", 
+    "description": "", 
+    "is_history": false, 
+    "parent_directory": [
+      "06c519ad-7c8c-4e0e-9137-1963a11f5025", 
+      1, 
+      false
+    ], 
+    "last_modified": "2016-11-25T09:05:11", 
+    "version": 1, 
+    "owner": [
+      "cloudera"
+    ], 
+    "dependencies": [], 
+    "data": "{\"loadingHistory\": false, \"is_history\": false, \"id\": 13, \"snippets\": [{\"status\": \"available\", \"complexityLevel\": \"\", \"chartX\": null, \"lastExecuted\": 1480070446669, \"queriesFilterVisible\": false, \"variables\": [], \"showChart\": false, \"isResultSettingsVisible\": false, \"chartScope\": \"world\", \"queriesHasErrors\": false, \"errorsKlass\": \"results hive alert alert-error\", \"result\": {\"statements_count\": 1, \"endTime\": \"2016-11-25T10:42:07.442Z\", \"handle\": {\"log_context\": null, \"statements_count\": 1, \"end\": {\"column\": 96, \"row\": 0}, \"statement_id\": 0, \"has_more_statements\": false, \"start\": {\"column\": 0, \"row\": 0}, \"secret\": \"MwPGcOO8Qjar72cWZn9Twg==\\n\", \"has_result_set\": true, \"statement\": \"select avg(gsd19026) as mediagsd19026 from datacleantableexternal where genetitle like '%retard%'\", \"operation_type\": 0, \"modified_row_count\": null, \"guid\": \"0Th7k1Z9Squm4SWQnFLKaA==\\n\"}, \"statement_id\": 0, \"executionTime\": 80760, \"type\": \"table\", \"explanation\": \"\", \"fetchedOnce\": false, \"statement_range\": {\"start\": {\"column\": 0, \"row\": 0}, \"end\": {\"column\": 0, \"row\": 0}}, \"hasManyColumns\": false, \"hasResultset\": true, \"meta\": [], \"hasMore\": false, \"startTime\": \"2016-11-25T10:40:46.682Z\", \"hasSomeResults\": true, \"logLines\": 30, \"data\": [], \"id\": \"adee770b-790e-3e1d-3d54-3800e9c60189\", \"logs\": \"\"}, \"viewSettings\": {\"sqlDialect\": true, \"placeHolder\": \"Example: SELECT * FROM tablename, or press CTRL + space\"}, \"loadingQueries\": false, \"hasDataForChart\": false, \"id\": \"edb86da8-6252-60d0-b43d-b032bf8d482c\", \"errors\": [], \"aceSize\": 100, \"statusForButtons\": \"executed\", \"chartData\": [], \"statement_raw\": \"select avg(gsd19026) as mediagsd19026 from datacleantableinternal where genetitle like '%retard%'\", \"showLogs\": false, \"chartMapLabel\": null, \"statement\": \"select avg(gsd19026) as mediagsd19026 from datacleantableinternal where genetitle like '%retard%'\", \"progress\": 0, \"type\": \"hive\", \"chartSorting\": \"none\", \"previousChartOptions\": {\"chartSorting\": \"none\", \"chartX\": null, \"chartScatterSize\": null, \"chartScope\": \"world\", \"chartMapLabel\": null, \"chartScatterGroup\": null, \"chartYSingle\": null, \"chartYMulti\": []}, \"jobs\": [], \"isSqlDialect\": true, \"queriesFilter\": \"\", \"variableNames\": [], \"resultsKlass\": \"results hive\", \"queriesCurrentPage\": 1, \"queriesTotalPages\": 1, \"formatEnabled\": true, \"chartYMulti\": [], \"dbSelectionVisible\": false, \"chartType\": \"bars\", \"currentQueryTab\": \"queryResults\", \"showGrid\": true, \"properties\": {\"files\": [], \"functions\": [], \"settings\": []}, \"isFetchingData\": false, \"name\": \"\", \"database\": \"default\", \"hasSuggestion\": false, \"chartScatterSize\": null, \"hasComplexity\": false, \"complexity\": \"\", \"chartScatterGroup\": null, \"chartYSingle\": null, \"suggestion\": \"\", \"is_redacted\": false, \"settingsVisible\": false, \"checkStatusTimeout\": null, \"isLoading\": false}], \"uuid\": \"ef805cd5-7f60-c97d-227a-1b726ff8687c\", \"dependentsWorkflows\": [], \"historyFilterVisible\": false, \"isHistory\": false, \"type\": \"query-hive\", \"historyFilter\": \"\", \"description\": \"\", \"sessions\": [{\"type\": \"hive\", \"properties\": [{\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Files\", \"key\": \"files\", \"help_text\": \"Add one or more files, jars, or archives to the list of resources.\", \"type\": \"hdfs-files\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Functions\", \"key\": \"functions\", \"help_text\": \"Add one or more registered UDFs (requires function name and fully-qualified class name).\", \"type\": \"functions\"}, {\"multiple\": true, \"defaultValue\": [], \"value\": [], \"nice_name\": \"Settings\", \"key\": \"settings\", \"help_text\": \"Hive and Hadoop configuration properties.\", \"type\": \"settings\", \"options\": [\"hive.map.aggr\", \"hive.exec.compress.output\", \"hive.exec.parallel\", \"hive.execution.engine\", \"mapreduce.job.queuename\"]}], \"id\": 1}], \"selectedSnippet\": \"hive\", \"name\": \"media retard interna\", \"parentSavedQueryUuid\": null, \"isSaved\": true, \"creatingSessionLocks\": [], \"directoryUuid\": \"\", \"unloaded\": false}", 
+    "name": "media retard interna"
+  }
+}
+]

@@ -1,0 +1,26 @@
+hadoop fs -mkdir geo
+
+hadoop fs -put /home/cloudera/GEO/GDS1001_full.soft.txt geo
+
+hadoop jar  /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -file /home/cloudera/GEO/mapper-clean.py    -mapper /home/cloudera/GEO/mapper-clean.py  -input /user/cloudera/geo/* -output /user/cloudera/geo-output
+
+hadoop jar  /usr/lib/hadoop-mapreduce/hadoop-streaming.jar -file /home/cloudera/GEO/mapper-avg.py    -mapper /home/cloudera/GEO/mapper-avg.py  -input /user/cloudera/geo/DataClean -output /user/cloudera/geo-output
+
+
+create external table datacleantableexternal (
+  idref  STRING,   ident  STRING, 
+  gsm19023 FLOAT,  gsd19024 FLOAT, 
+  gsd19025 FLOAT,   gsd19026 FLOAT, 
+  genetitle STRING,   genesymbol STRING,
+  geneID SMALLINT,   uniGenetitle STRING,
+  uniGenesymbol STRING,  uniGeneID STRING,
+  NucleotideTitle STRING, Max FLOAT, Min FLOAT, Avg FLOAT) 
+ROW FORMAT DELIMITED FIELDS TERMINATED BY '\t'	LOCATION '/user/cloudera/Tablas';
+
+
+
+select * from datacleantableexternal order by gsd19026 desc limit 10
+
+select avg(gsd19026) as media-gsd19026 from datacleantableexternal where genetitle like '%retard%'
+
+
